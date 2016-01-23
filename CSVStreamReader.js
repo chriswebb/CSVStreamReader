@@ -44,7 +44,7 @@ var CSVStreamReader = function(delimiter, textfieldIdentifier) {
         var curChar = undefined;
         var column = 0;
         var output = [];
-        var endPosition = startPosition
+        var endPosition = startPosition;
 
         for (var i=startPosition; i<input.length; i++) {
             endPosition = i;
