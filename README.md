@@ -1,7 +1,7 @@
 # CSVStreamReader
 Used to parse delimited strings into a usable structure.
 ## Installation
-To install, add the CSVStreamReader.js file to your DOM via a <script> tag.
+To install, add the CSVStreamReader.js file to your DOM via a &lt;script&gt; tag.
 ## Usage
 var reader = new CSVStreamReader(',', '"'); // creates a new stream reader that is comma delimited and text quoted.
 var numColumns = reader.getTotalColumns(input); // gets the number of columns from the first row.
